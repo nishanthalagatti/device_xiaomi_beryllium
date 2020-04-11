@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml
 
 # GoogleCamera
-$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
+$(call inherit-product, device/xiaomi/beryllium/Gcam/config.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \

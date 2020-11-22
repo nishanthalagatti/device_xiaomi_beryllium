@@ -17,6 +17,10 @@ $(call inherit-product, vendor/xiaomi-firmware/beryllium/firmware.mk)
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \

@@ -75,8 +75,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.8.vendor \
     vendor.display.config@1.9.vendor
 
-# GoogleCameraGo
-$(call inherit-product, packages/apps/GoogleCameraGo/gcam.mk)
+# GoogleCamera
+$(call inherit-product, device/xiaomi/beryllium/Gcam/config.mk)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
